@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./Assets/calculator-svgrepo-com.svg" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <form>
+          <div class="result_wrapper">
+            <input type="text" name="results" readonly class="result" />
+          </div>
+          <div class="rows">
+            <input class="c_button" type="button" value="C" />
+            <input class="del_button" type="button" value="Del" />
+            <input class="dot_button" type="button" value="." />
+            <div>
+              <img
+                class="divide_button"
+                src="./Assets/divide_zsylz1w2yrx0 (2).svg"
+                alt="divide" />
+            </div>
+          </div>
+          <div class="rows">
+            <input type="button" value="7" class="seven" />
+            <input type="button" value="8" class="eight" />
+            <input type="button" value="9" class="nine" />
+            <div>
+              <img
+                style="width: 15px; height: 15px"
+                src="./Assets/multiplication-svgrepo-com.svg"
+                alt="multiplication"
+                class="multiply" />
+            </div>
+          </div>
+          <div class="rows">
+            <input type="button" value="4" class="four" />
+            <input type="button" value="5" class="five" />
+            <input type="button" value="6" class="six" />
+            <div>
+              <img
+                src="./Assets/plus_6w5oe8ujuwaj.svg"
+                alt="plus"
+                class="plus" />
+            </div>
+          </div>
+          <div class="rows">
+            <input type="button" value="1" class="one" />
+            <input type="button" value="2" class="two" />
+            <input type="button" value="3" class="three" />
+            <div>
+              <img
+                src="./Assets/minus_sign_n1t7fi7xcguh.svg"
+                alt="minus"
+                class="minus" />
+            </div>
+          </div>
+          <div class="rows">
+            <input type="button" value="00" class="double_zero" />
+            <input type="button" value="0" class="zero" />
+            <input
+              type="button"
+              value="="
+              id="equal_sign"
+              style="width: 120px; background: red; border-radius: 10px" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
